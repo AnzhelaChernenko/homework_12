@@ -137,8 +137,10 @@ li.footer__madeBy.footer {
 button:hover{
     cursor: pointer;
     box-shadow: 0 0 10px rgba(210,105,30,0.8);
+    border: none;
 }
 
 .form__input:hover{
     box-shadow: 0 0 10px rgba(0,195,195,0.8);
+    border: none;
 }
