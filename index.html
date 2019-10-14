@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body>
+<div class="ground">
+<header>
+    <div class="header__caption">Contact</div>
+    <div class="header__description">For new projects, ideas, business or anything
+    <br>
+    you like to discuss, contact with me!</div>
+</header>
+<main>
+    <article>
+        <section class="form">
+            <form action="#" method="get">
+            <div class="form__name summary">
+                <label class="form__label" for="Username"></label>
+                <input class="form__input" placeholder="Your name" minlength="3"  maxlength="30" type="text" name="Username" id="Username">
+
+            </div>
+
+                <div class="form__email summary">
+                    <label class="form__label" for="email"></label>
+                    <input class="form__input" maxlength="30" placeholder="Yuor email..." required type="email" name="email" id="email">
+
+                </div>
+
+                <div class="form__fone summary">
+                    <label class="form__label" for="fone"></label>
+                    <input data mask="000 000 0000" minlength="10" maxlength="10" class="form__input" placeholder="Your phone number" required type="fone" name="fone" id="fone">
+
+                </div>
+
+                <div class="form__message summary">
+                    <label class="form__label" for="message"></label>
+                    <textarea class="form__input text_full" maxlength="200" placeholder="Your message" for="message" type="message" rows="10" cols="45" id="message" name="text"></textarea>
+
+                </div>
+
+                <div class="summary summary--submit">
+                    <button type="submit" class="btn btn--primary">Send</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="contacts">
+            <div class="contacts__address">
+                <span><b>ADDRESS</b><br>
+                123 City name, City, Country</span>
+            </div>
+            <div class="contacts__email">
+                <span><b>EMAIL</b><br>
+                cahee@domain.com</span>
+            </div>
+            <div class="contacts__phone">
+                <span><b>PHONE</b><br>
+                +012 345 6789</span>
+            </div>
+        </section>
+    </article>
+
+</main>
+
+</div>
+<footer>
+    <div class="footer">
+        <ul style="list-style: none">
+            <li class="footer__copyright footer">2015 Company.All right reserved</li>
+            <li class="footer__logo footer">Cahee</li>
+            <li class="footer__madeBy footer">Made with<b style="color: red;font-size: 16px">love</b>by Anzhela</li>
+        </ul>
+    </div>
+</footer>
+
+<script src="./plugin/jquery.mask.js"></script>
+</body>
+</html>
